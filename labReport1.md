@@ -1,5 +1,5 @@
 # Lab Report 1: Remote Access and FileSystem
-  ## This is a tutorial for incoming 15L students on how to log into a course-specific account on `ieng6`
+  ## This is a tutorial for incoming 15L students on how to log into a course-specific account on `ieng6`.
 
 *Note: At the time of writing this tutorial I am still facing account issues with ssh-ing into the course-specific Linux account and was instructed
   to ssh into ieng6-202 directly in the meantime. Students who are not facing this issue should simply ssh without the "-202".* 
@@ -32,11 +32,13 @@ Once installed the homescreen should look like this (colors and menu bar may ver
   
   If it is your first time connecting to this server you will get a message that looks similar to this: 
   *Used "-240" so as to get image example of first time log in, as I have logged into 202 before*
+  
    ![Image](ssh-ing into 240.png)
  
   Answer yes to the prompt by typing it into the command line and pressing enter.
   Then you type in your password (Be aware: your password will be hidden from view when you are writing it) and press enter. 
   You should then see something like this:
+  
   ![Image](Succsessful 202 log in.png)
  
  
@@ -53,9 +55,11 @@ Some commands to try are:
   * `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
   
 You should expect to see similar output from using the command `ls -lat` as below:
+
 ![Image](202 ls lat example.png)
 
 You should expect to see similar output from using the command `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` as below:
+
 ![Image](202 cat-> Hello! example.png)
 
 ---
