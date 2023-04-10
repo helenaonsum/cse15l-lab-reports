@@ -32,12 +32,13 @@ Once installed the homescreen should look like this (colors and menu bar may ver
   
   If it is your first time connecting to this server you will get a message that looks similar to this: 
   *Used "-240" so as to get image example of first time log in, as I have logged into 202 before*
- //Insert images
+   ![Image](ssh-ing into 240.png)
  
   Answer yes to the prompt by typing it into the command line and pressing enter.
   Then you type in your password (Be aware: your password will be hidden from view when you are writing it) and press enter. 
   You should then see something like this:
- //Insert Image
+  ![Image](Succsessful 202 log in.png)
+ 
  
 ---
  
@@ -52,10 +53,10 @@ Some commands to try are:
   * `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
   
 You should expect to see similar output from using the command `ls -lat` as below:
-//insert image
+![Image](202 ls lat example.png)
 
 You should expect to see similar output from using the command `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` as below:
-//insert image
+![Image](202 cat-> Hello! example.png)
 
 ---
    
