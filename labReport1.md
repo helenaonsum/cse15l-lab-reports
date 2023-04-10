@@ -24,7 +24,7 @@ Once installed the homescreen should look like this (colors and menu bar may ver
 
 1. Open a terminal in VS Code
   To open a new terminal, either use Ctrl/Command +, or select Terminal -> New Terminal from the menu bar (this is what I prefer to use)
-  //Insert image
+  ![Image](New Terminal pic.png)
   
 2. Using ssh
   Type in the command: `ssh cs15lsp23xx@ieng6-202.ucsd.edu`
