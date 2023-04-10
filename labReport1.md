@@ -11,3 +11,4 @@ Download Visual Studio Code from their website by clicking the link and followin
 
 Once installed the homescreen should look like this (colors and menu bar may very due to differences in settings): 
 
+![Image](Skjermbilde 2023-04-10 kl. 10.18.14.png)
