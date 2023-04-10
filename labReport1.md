@@ -58,7 +58,7 @@ Some commands to try are:
   * `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
   * `ls /home/linux/ieng6/cs15lsp23/cs15lsp23abc`
 
-    *the part after `ls` is the course-specific directory. Replace 'abc' with the username of someone else in the course*
+    *The part after `ls` is the course-specific directory. Replace 'abc' with the username of someone else in the course*
  
   
 You should expect to see similar output from using the command `ls -lat` as below:
