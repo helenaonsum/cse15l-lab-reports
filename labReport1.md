@@ -20,7 +20,7 @@ Once installed the homescreen should look like this (colors and menu bar may ver
 
 **Step 2: Remotely Connecting**
 
-*I use macOS and therefore do not need to take the extra step of installing git. For those using Windows, you will have to install git and sett the default terminal to be `git bash` in VS Code. These links will help with that process: [Git for Windows download](https://gitforwindows.org/), [How to use Bash on Windows in VS Code](https://stackoverflow.com/a/50527994)*
+*I use macOS and therefore do not need to take the extra step of installing git. For those using Windows, you will have to install git and set the default terminal to be `git bash` in VS Code. These links will help with that process: [Git for Windows download](https://gitforwindows.org/), [How to use Bash on Windows in VS Code](https://stackoverflow.com/a/50527994)*
 
 1. Open a terminal in VS Code
   To open a new terminal, either use Ctrl/Command +, or select Terminal -> New Terminal from the menu bar (this is what I prefer to use)
