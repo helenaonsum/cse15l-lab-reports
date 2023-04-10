@@ -30,16 +30,22 @@ Once installed the homescreen should look like this (colors and menu bar may ver
   
 2. Using ssh:
 
-  Type in the command: `ssh cs15lsp23xx@ieng6-202.ucsd.edu`
+  Type in the command: `ssh cs15lsp23xx@ieng6.ucsd.edu`
+  
   *Replace the xx with the letters from your course-specific account (example: in my case 'gp', so the command would read `ssh cs15lsp23gp@ieng6-202.ucsd.edu`for me)*
   
   If it is your first time connecting to this server you will get a message that looks similar to this: 
-  *Used "-240" so as to get image example of first time log in, as I have logged into 202 before*
+  
+  *(I used "-240" so as to get an example image of a first time log in, as I have logged into 202 before)*
   
    ![Image](ssh-ing into 240.png)
  
   Answer yes to the prompt by typing it into the command line and press enter.
-  Then type in your password (Be aware: your password will be hidden from view when you are writing it) and press enter. 
+  
+  Then type in your password and press enter.
+  
+  (Be aware: your password will be hidden from view when you are writing it)
+  
   You should then see something like this:
   
   ![Image](Succsessful 202 log in.png)
@@ -50,15 +56,17 @@ Once installed the homescreen should look like this (colors and menu bar may ver
 ---
  
 **Step 3: Trying Some Commands** 
-Test out combinations of the commands: `cd`, `cp`, `pwd`, `ls` and `mkdir` on the remote computer (where you should be after ssh-ing)
 
-Some commands to try are:
+Test out different combinations of the commands: `cd`, `cp`, `pwd`, `ls` and `mkdir` on the remote computer (where you should be after ssh-ing)
+
+Some combinations to try are:
+  * `cd`
   * `cd ~`
   * `ls -lat`
   * `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
   * `ls /home/linux/ieng6/cs15lsp23/cs15lsp23abc`
 
-    *The part after `ls` is the course-specific directory. Replace 'abc' with the username of someone else in the course*
+    *The part after `ls` is the course-specific directory. Replace 'abc' with the username of someone else in the course.*
  
   
 You should expect to see similar output from using the command `ls -lat` as below:
@@ -71,5 +79,5 @@ You should expect to see similar output from using the command `cat /home/linux/
 
 ---
    
-**Logging out of the remote server in your terminal:**
+**To log out of the remote server in your terminal:**
   Use Ctrl-D and then run the command `exit`
