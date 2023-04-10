@@ -4,5 +4,10 @@
   to ssh into ieng6-202 directly in the meantime. Students who are not facing this issue should simply ssh without the "-202".*
 -------------------------------------------------------
 
-**Step 1**
+**Step 1: Getting started with Visual Studio Code**
+*This step may be skipped if you have VS Code downloaded*
+
+Download Visual Studio Code from their website by clicking the link and following their instructions: [Link](https://code.visualstudio.com/)
+
+Once installed the homescreen should look like this (colors and menu bar may very due to differences in settings): 
 
