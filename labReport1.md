@@ -22,11 +22,14 @@ Once installed the homescreen should look like this (colors and menu bar may ver
 
 *I use macOS and therefore do not need to take the extra step of installing git. For those using Windows, you will have to install git and set the default terminal to be `git bash` in VS Code. These links will help with that process: [Git for Windows download](https://gitforwindows.org/), [How to use Bash on Windows in VS Code](https://stackoverflow.com/a/50527994)*
 
-1. Open a terminal in VS Code
+1. Open a terminal in VS Code:
+
   To open a new terminal, either use Ctrl/Command +, or select Terminal -> New Terminal from the menu bar (this is what I prefer to use)
+  
   ![Image](New Terminal pic.png)
   
-2. Using ssh
+2. Using ssh:
+
   Type in the command: `ssh cs15lsp23xx@ieng6-202.ucsd.edu`
   *Replace the xx with the letters from your course-specific account (example: in my case 'gp', so the command would read `ssh cs15lsp23gp@ieng6-202.ucsd.edu`for me)*
   
@@ -35,17 +38,19 @@ Once installed the homescreen should look like this (colors and menu bar may ver
   
    ![Image](ssh-ing into 240.png)
  
-  Answer yes to the prompt by typing it into the command line and pressing enter.
-  Then you type in your password (Be aware: your password will be hidden from view when you are writing it) and press enter. 
+  Answer yes to the prompt by typing it into the command line and press enter.
+  Then type in your password (Be aware: your password will be hidden from view when you are writing it) and press enter. 
   You should then see something like this:
   
   ![Image](Succsessful 202 log in.png)
+  
+  **You are now remotely connected!**
  
  
 ---
  
 **Step 3: Trying Some Commands** 
-Test out the commands `cd`, `cp`, `pwd`, `ls` and `mkdir` on the remote computer (where you should be after ssh-ing)
+Test out combinations of the commands: `cd`, `cp`, `pwd`, `ls` and `mkdir` on the remote computer (where you should be after ssh-ing)
 
 Some commands to try are:
   * `cd ~`
