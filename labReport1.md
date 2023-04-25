@@ -39,7 +39,13 @@ Once installed the homescreen should look like this (colors and menu bar may ver
   
   *(I used "-240" so as to get an example image of a first time log in, as I have logged into 202 before)*
   
-   ![Image](ssh-ing into 240.png)
+  You should see output similar to this:
+  
+ > MacBook-Air-26:~ Helena$ ssh cs15lsp23gp@ieng6-240.ucsd.edu
+ > The authenticity of host 'ieng6-240.ucsd.edu (128.54.70.240)' can't be established.
+ > RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTD/1x99wUQcec.
+ > Are you sure you want to continue connecting (yes/no/[fingerprint])?
+  
  
   Answer yes to the prompt by typing it into the command line and press enter.
   
@@ -49,7 +55,7 @@ Once installed the homescreen should look like this (colors and menu bar may ver
   
   You should then see something like this:
   
-  ![Image](Succsessful 202 log in.png)
+  ![Image](Succsessful202log in.png)
   
   **You are now remotely connected!**
  
@@ -72,11 +78,11 @@ Some combinations to try are:
   
 You should expect to see similar output from using the command `ls -lat` as below:
 
-![Image](202 ls lat example.png)
+![Image](202-ls-lat-example.png)
 
 You should expect to see similar output from using the command `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` as below:
 
-![Image](202 cat-> Hello! example.png)
+![Image](202 cat->Hello!example.png)
 
 ---
    
