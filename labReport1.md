@@ -68,15 +68,21 @@ Test out different combinations of the commands: `cd`, `cp`, `pwd`, `ls` and `mk
 
 Some combinations to try are:
   * `cd` -> sets the working directory to the home directory 
-        (I learned what that looks like, and that this is only the case if cd has no following paths, otherwise cd <path> changes the current working directory to that of the given path)
-  * `cd ~`-> will always take you to the home directory 
+        
+  (I learned what that looks like, and that this is only the case if cd has no following paths, otherwise cd <path> changes the current working directory to that of the given path)
+  * `cd ~`-> learned it will always take you to the home directory 
+  
   (I learned what it looks like to be taken to the home directory)
-  * `ls -lat` -> 
-  * `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
-  * `ls /home/linux/ieng6/cs15lsp23/cs15lsp23abc`
+  * `ls -lat` -> will print out the files/folders in lat 
+  
+  (I learned that ls <path> prints out the files and folders in the provided path)
+  * `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` -> will print out what is stored in hello.txt
+  
+  (Learned how to print out contents from files provided by the path cat <path>)
+  * `ls /home/linux/ieng6/cs15lsp23/cs15lsp23abc` -> should print out files stored under the provided username
 
     *The part after `ls` is the course-specific directory. Replace 'abc' with the username of someone else in the course.*
- 
+ (Learned how to access anothers users files/computer)
   
 You should expect to see similar output from using the command `ls -lat` as below:
 
