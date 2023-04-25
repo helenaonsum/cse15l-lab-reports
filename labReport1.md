@@ -67,9 +67,11 @@ Once installed the homescreen should look like this (colors and menu bar may ver
 Test out different combinations of the commands: `cd`, `cp`, `pwd`, `ls` and `mkdir` on the remote computer (where you should be after ssh-ing)
 
 Some combinations to try are:
-  * `cd`
-  * `cd ~`
-  * `ls -lat`
+  * `cd` -> sets the working directory to the home directory 
+        (I learned what that looks like, and that this is only the case if cd has no following paths, otherwise cd <path> changes the current working directory to that of the given path)
+  * `cd ~`-> will always take you to the home directory 
+  (I learned what it looks like to be taken to the home directory)
+  * `ls -lat` -> 
   * `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
   * `ls /home/linux/ieng6/cs15lsp23/cs15lsp23abc`
 
