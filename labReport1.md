@@ -27,7 +27,7 @@ Once installed the homescreen should look like this (colors and menu bar may ver
 
   To open a new terminal, either use Ctrl/Command +, or select Terminal -> New Terminal from the menu bar (this is what I prefer to use)
   
-  ![Image](NewTerminal pic.png)
+  ![Image](NewTerminalpic.png)
   
 2. Using ssh:
 
@@ -55,7 +55,7 @@ Once installed the homescreen should look like this (colors and menu bar may ver
   
   You should then see something like this:
   
-  ![Image](Succsessful202log in.png)
+  ![Image](Succsessful-202-log-in.png)
   
   **You are now remotely connected!**
  
@@ -84,7 +84,7 @@ You should expect to see similar output from using the command `ls -lat` as belo
 
 You should expect to see similar output from using the command `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` as below:
 
-![Image](202 cat->Hello!example.png)
+![Image](202cat->Hello!example.png)
 
 ---
    
