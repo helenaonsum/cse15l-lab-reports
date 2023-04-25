@@ -15,7 +15,7 @@ Download Visual Studio Code from their website by clicking the link and followin
 
 Once installed the homescreen should look like this (colors and menu bar may very due to differences in settings): 
 
-![Image](Skjermbilde 2023-04-10 kl. 10.18.14.png)
+![Image](VSCodeStarterPage.png)
 
 ---
 
@@ -27,7 +27,7 @@ Once installed the homescreen should look like this (colors and menu bar may ver
 
   To open a new terminal, either use Ctrl/Command +, or select Terminal -> New Terminal from the menu bar (this is what I prefer to use)
   
-  ![Image](New Terminal pic.png)
+  ![Image](NewTerminal pic.png)
   
 2. Using ssh:
 
