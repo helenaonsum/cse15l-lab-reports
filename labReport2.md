@@ -15,6 +15,12 @@ Some correct output, but some off when adding a second String, Hi to first Strin
 
 Command Line for running StringServer:
 
+![Image](StringServerCmndLine.png)
+
 StringServer Code:
 
+![Image](StringServer.png)
+
 Server Code:
+
+![Image](Server.png)
