@@ -75,10 +75,10 @@ Some combinations to try are:
   (I learned what it looks like to be taken to the home directory)
   * `ls -lat` -> will print out the files/folders in lat 
   
-  (I learned that ls '<path>' prints out the files and folders in the provided path)
+  (I learned that ls 'path' prints out the files and folders in the provided path)
   * `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` -> will print out what is stored in hello.txt
   
-  (Learned how to print out contents from files provided by the path cat '<path>')
+  (Learned how to print out contents from files provided by the path cat 'path')
   * `ls /home/linux/ieng6/cs15lsp23/cs15lsp23abc` -> should print out files stored under the provided username
 
     *The part after `ls` is the course-specific directory. Replace 'abc' with the username of someone else in the course.*
