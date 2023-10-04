@@ -11,10 +11,10 @@
 When you use `cd` with no arguments the working directory will change to become the home directory.
 In this example it will appear that nothing has changed, however, this is not an error as the working directory *was* the home directory prior
 to the use of `cd` with no arguments. If the working directory was **lecture1** the use of `cd` with no arguments would result in the working directory changing to be the home directory, in this case **/home**.
-
-
-
-
+  
+  
+  
+  
 * `ls` :
   
 ![Image](ls no args.png)
