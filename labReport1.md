@@ -24,27 +24,27 @@ its function
 **An example of using the command with a path to a directory as an argument:**
 * `cd` :
   
-![Image](cd dir args.png)
+![Image](cd dir arg.png)
 
 * `ls` :
   
-![Image](ls dir args.png)
+![Image](ls dir arg.png)
 
 * `cat` :
   
-![Image](cat dir args.png)
+![Image](cat dir arg.png)
 
 
 **An example of using the command with a path to a file as an argument:**
 * `cd` :
   
-![Image](cd file args.png)
+![Image](cd file arg.png)
 
 * `ls` :
   
-![Image](ls file args.png)
+![Image](ls file arg.png)
 
 * `cat` :
   
-![Image](cat file args.png)
+![Image](cat file arg.png)
 
