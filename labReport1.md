@@ -13,6 +13,8 @@ In this example it will appear that nothing has changed, however, this is not an
 to the use of `cd` with no arguments. If the working directory was **lecture1** the use of `cd` with no arguments would result in the working directory changing to be the home directory, in this case **/home**.
 
 
+
+
 * `ls` :
   
 ![Image](ls no args.png)
