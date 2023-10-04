@@ -16,7 +16,7 @@ to the use of `cd` with no arguments. If the working directory was **lecture1** 
 ![Image](ls no args.png)
 
 When using `ls` with no arguments, the command will list out the contents of the
-working directory. This example shows that in the working directory **/home**, the content is **lecture1**. This is correct, and therefor not an error.
+working directory. This example shows that in the working directory **/home**, the content is **lecture1**. This is correct, and therefore not an error.
 * `cat` :
   
 ![Image](cat no args.png)
