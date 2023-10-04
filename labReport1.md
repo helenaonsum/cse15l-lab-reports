@@ -1,7 +1,7 @@
 # Lab Report 1
 ## Helena Onsum, CSE 15 L
 -----------------------------------------------
-** *Using `cd` , `ls` , and `cat`.* **
+# *Using `cd` , `ls` , and `cat`.* 
 
 **An example of using the command with no arguments:**
 * `cd` :
