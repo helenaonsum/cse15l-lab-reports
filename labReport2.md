@@ -6,9 +6,9 @@
 **PART 1:**
 * This is my code for StringServer:
 
-![Image](Skjermbilde 2023-10-22 kl. 21.02.12.png)
+![Image](StringServerCode.png)
 
-* Screenshot after request: `add-message?s=Hello` :
+**Screenshot after request:** `add-message?s=Hello` :
 
 ![Image](Lab2Hello.png)
 
@@ -16,7 +16,7 @@
   - A string array is the relevant argument to the main method in my StringServer class, where the last element should be a port number for the server to start. The relevant argument to my handleRequest method is a url( `URI url`). This contains the url details as well as the requests made to add strings. In this method, the relevant fields are `count` and `str`, which count the string addition requests and stores the strings added in a single string, respectively. The values of `count` is `int`s starting from 0 and increasing by each request to add a string. The values of `str` is a string which gets larger by each string addition.
   - The values of both `count` and `str` got changed with the request `add-message?s=Hello`. `count` increased from the default 0 to be 1 as one request to add a string had now been made. `str` went from being an empty string, to now containing "1. Hello".
 
-* Screenshot after request: `add-message?s=How are you` :
+**Screenshot after request:** `add-message?s=How are you` :
 
 ![Image](Lab2HowAreYou.png)
 
