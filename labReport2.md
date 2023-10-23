@@ -26,5 +26,7 @@
 
 **PART 2:**
 *I am currently facing problems with generating my SSH key, and therefore cannot complete this portion -will hopefully fix it by resubmission time*
+
 **PART 3:**
-- *So far there is very little I knew before lab, so the following are just a few examples.* In lab week 2 I learned about remote computers and how you can access them with the SSH command through the terminal. I realize how helpful and practical this is in proffesional/work environments. In the same lab I got a deeper understanding of what a server is and how much information a URL contains. In week 3 I learned about running a server on my local computer with VSCode and visiting the url `http://localhost:[enter port number]`. This was new to me as I had only known how to do this in EdStem before. 
+*So far there is very little I knew before lab, so the following are just a few examples.* 
+- In lab week 2 I learned about remote computers and how you can access them with the SSH command through the terminal. I realize how helpful and practical this is in proffesional/work environments. In the same lab I got a deeper understanding of what a server is and how much information a URL contains. In week 3 I learned about running a server on my local computer with VSCode and visiting the url `http://localhost:[enter port number]`. This was new to me as I had only known how to do this in EdStem before. 
