@@ -4,6 +4,10 @@
 # *Servers and SSH Keys.* 
 
 **PART 1:**
+* This is my code for StringServer:
+
+![Image](Skjermbilde 2023-10-22 kl. 21.02.12.png)
+
 * Screenshot after request: `add-message?s=Hello` :
 
 ![Image](Lab2Hello.png)
