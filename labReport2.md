@@ -6,11 +6,11 @@
 **PART 1:**
 **This is my code for StringServer:**
 
-![Image](StringServerCode.png)
+![Image](StringServer.png)
 
 **Screenshot after request:** `add-message?s=Hello` :
 
-![Image](Lab2Hello.png)
+![Image](AddMessageHello.png)
 
   - For this code,first my main method in my StringServer class was called. This was before running the above request, but the method was called to start the server as it checked the presence of a pot number and then started a server. After making the above request for "Hello" to be added to my string, my handleRequest method was called to process the request and add "Hello" to my string.
   - A string array is the relevant argument to the main method in my StringServer class, where the last element should be a port number for the server to start. The relevant argument to my handleRequest method is a url( `URI url`). This contains the url details as well as the requests made to add strings. In this method, the relevant fields are `count` and `str`, which count the string addition requests and stores the strings added in a single string, respectively. The values of `count` is `int`s starting from 0 and increasing by each request to add a string. The values of `str` is a string which gets larger by each string addition.
@@ -18,7 +18,7 @@
 
 **Screenshot after request:** `add-message?s=How are you` :
 
-![Image](Lab2HowAreYou.png)
+![Image](AddMessageHowAreYou.png)
 
   - After making the above request for "How are you" to be added to my string, my handleRequest method was called to process the request and add "How are you" to my string.
   - The relevant argument to my handleRequest method is a url( `URI url`). This contains the url details as well as the requests made to add strings. In this method, the relevant fields are `count` and `str`, which count the string addition requests and stores the strings added in a single string, respectively. The values of `count` is `int`s starting from 0 and increasing by each request to add a string. The values of `str` is a string which gets larger by each string addition.In this method, the relevant fields are `count` and `str`, which count the string addition requests and stores the strings added in a single string, respectively. The values of `count` is `int`s starting from 0 and increasing by each request to add a string. The values of `str` is a string which gets larger by each string addition.
