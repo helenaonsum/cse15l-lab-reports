@@ -25,7 +25,21 @@
   - The values of both `count` and `str` got changed with the request `add-message?s=How are you`. `count` increased from 1 to be 2 as two requests to add a string had now been made. `str` went from being "1. Hello", to now containing "1. Hello 2. How are you".
 
 **PART 2:**
-*I am currently facing problems with generating my SSH key, and therefore cannot complete this portion -will hopefully fix it by resubmission time*
+**The path to the private key for my SSH key for `ieng6` log-in from local computer:**
+
+![Image](PrivateSSHKey.png)
+
+*The private key is stored in the id_rsa file, and I used `cat` to show the contents/the key*
+
+**The path to the public key for my SSH key for `ieng6` log-in withing my `ieng6` account:**
+
+![Image](PublicSSHKey.png)
+
+*The public key is stored in the authorized_keys file, and I used `cat` to show the contents/the key*
+
+**Below is a screenshot of a terminal interaction where I logged into `ieng6` with my account without using a password:**
+
+![Image](NoPasswordLogInIENG6.png)
 
 **PART 3:**
 *So far there is very little I knew before lab, so the following are just a few examples.* 
