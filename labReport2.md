@@ -27,13 +27,13 @@
 **PART 2:**
 **The path to the private key for my SSH key for `ieng6` log-in from local computer:**
 
-![Image](PrivateSSHKey.png)
+![Image](SSHPrivateKey.png)
 
 *The private key is stored in the id_rsa file, which is found in the directory /Users/Helena/.ssh on my computer.*
 
 **The path to the public key for my SSH key for `ieng6` log-in withing my `ieng6` account:**
 
-![Image](PublicSSHKey.png)
+![Image](SSHPublicKey.png)
 
 *The public key is stored in the authorized_keys file, which is found in the directory /home/linux/ieng6/cs15lfa23/cs15lfa23ka/.ssh on `ieng6`*
 
