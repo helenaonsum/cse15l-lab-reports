@@ -29,13 +29,13 @@
 
 ![Image](PrivateSSHKey.png)
 
-*The private key is stored in the id_rsa file, and I used `cat` to show the contents/the key*
+*The private key is stored in the id_rsa file, which is found in the directory /Users/Helena/.ssh on my computer.*
 
 **The path to the public key for my SSH key for `ieng6` log-in withing my `ieng6` account:**
 
 ![Image](PublicSSHKey.png)
 
-*The public key is stored in the authorized_keys file, and I used `cat` to show the contents/the key*
+*The public key is stored in the authorized_keys file, which is found in the directory /home/linux/ieng6/cs15lfa23/cs15lfa23ka/.ssh on `ieng6`*
 
 **Below is a screenshot of a terminal interaction where I logged into `ieng6` with my account without using a password:**
 
