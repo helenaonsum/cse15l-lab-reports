@@ -31,6 +31,7 @@
     }
   }
   `
+  
 **Below is the symptom, and the output of running the above tests:**
 
 ![Image](ArrayTestFailure.png)
@@ -38,15 +39,22 @@
 
 **Below is the buggy reversed method**
 
-` static int[] reversed(int[] arr) {
-    int[] newArray = new int[arr.length];
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = newArray[arr.length - i - 1];
-    }
-    return arr;
-  }
-  `
+`static int[] reversed(int[] arr) {`
+
+    `int[] newArray = new int[arr.length];`
+    
+    `for(int i = 0; i < arr.length; i += 1) {`
+    
+      `arr[i] = newArray[arr.length - i - 1];`
+      
+    `}`
+    
+    `return arr;`
+    
+  `}`
+  
 **Below is the reversed method after the bug was fixed**
+
 `  static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
@@ -65,5 +73,5 @@ to be
     return newArray;
   }`
 the code now accesses the elements of the old array reversely and adds them to the newArray. This means that the newArray will not correctly contain the elements of the old array, but in reverse order. 
-* 
+
 **PART 2 - Researching Commands:**
