@@ -8,29 +8,43 @@
 
 **Below is a failure-inducing input for the buggy program, as a JUnit test:**
   
-` import static org.junit.Assert.*;
-  import org.junit.*;
-  public class ArrayTests {
-  @Test
-    public void testReversedArray() {
-      int[] input = {1, 2, 3};
-      assertArrayEquals(new int[]{3, 2, 1}, ArrayExamples.reversed(input));
-    }
-  }
-  `
+ `import static org.junit.Assert.*;`
+ 
+ `import org.junit.*;`
+ 
+ `public class ArrayTests {`
+ 
+ `@Test`
+ 
+    `public void testReversedArray() {`
+    
+      `int[] input = {1, 2, 3};`
+      
+      `assertArrayEquals(new int[]{3, 2, 1}, ArrayExamples.reversed(input));`
+      
+    `}`
+    
+  `}`
 
 **Below is an input that doesn't induce a failure, as a JUnit test:**
 
-` import static org.junit.Assert.*;
-  import org.junit.*;
-  public class ArrayTests {
-  @Test
-    public void testReversedNoFailure() {
-      int[] input = { };
-      assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input));
-    }
-  }
-  `
+  `import static org.junit.Assert.*;`
+  
+  `import org.junit.*;`
+  
+  `public class ArrayTests {`
+  
+  `@Test`
+  
+    `public void testReversedNoFailure() {`
+    
+      `int[] input = { };`
+      
+      `assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input));`
+      
+    `}`
+    
+  `}`
   
 **Below is the symptom, and the output of running the above tests:**
 
@@ -55,23 +69,40 @@
   
 **Below is the reversed method after the bug was fixed**
 
-`  static int[] reversed(int[] arr) {
-    int[] newArray = new int[arr.length];
-    for(int i = 0; i < arr.length; i += 1) {
-      newArray[i] = arr[arr.length - i - 1];
-    }
-    return newArray;
-  }
-`
+   `static int[] reversed(int[] arr) {`
+   
+   `int[] newArray = new int[arr.length];`
+   
+   `for(int i = 0; i < arr.length; i += 1) {`
+   
+      `newArray[i] = arr[arr.length - i - 1];`
+      
+    `}`
+    
+    `return newArray;`
+    
+  `}`
+
 * The bug was that in the old code, the method reversely accessed the elements of the newArray and replaced the ones in the old array with them (all newArray elements would all have the value 0 as default values). By changing the lines
-    `  arr[i] = newArray[arr.length - i - 1];
-    }
-    return arr;`
+  
+    `arr[i] = newArray[arr.length - i - 1];`
+  
+    `}`
+  
+    `return arr;`
+  
+    `}`
+  
 to be
-  `  newArray[i] = arr[arr.length - i - 1];
-    }
-    return newArray;
-  }`
+
+   `newArray[i] = arr[arr.length - i - 1];`
+   
+   `}`
+   
+   `return newArray;`
+   
+   `}`
+   
 the code now accesses the elements of the old array reversely and adds them to the newArray. This means that the newArray will not correctly contain the elements of the old array, but in reverse order. 
 
 **PART 2 - Researching Commands:**
