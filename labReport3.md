@@ -208,3 +208,7 @@ txt
 *The command is given on the first line, and the output is the rest.*
 
 * The command-line option `grep -L` prints each file of the given input files that does not contain/match the given pattern/search word. In the first example, the output showes that the search word **Cold War** was **not present** in files: chapter-10.txt, chapter-13.2.txt, chapter-13.5.txt, chapter-2.txt, chapter-5.txt, chapter-7.txt, chapter-8.txt and chapter-9.txt. (It was present in files chapter-1.txt, chapter-3.txt, chapter-6.txt, chapter-11.txt, chapter-12.txt, chapter-13.1.txt, chapter-13.3.txt and chapter-13.4.txt.) In the second example, the output showes that the searchword **TWEAK** was **not present** in the files: Session3-PDF.txt and Session4-PDF.txt. (It was present in file Session2-PDF.txt).
+
+
+**SOURCE FOR GREP COMMAND OPTIONS:**
+* I used the link: [Link]([http://a.com](https://man7.org/linux/man-pages/man1/grep.1.html)https://man7.org/linux/man-pages/man1/grep.1.html) to research different grep commands. If I didn't fully understand the meaning of the description for a command given in the manual, I played around with it using different inputs and files till I realized/figured out what manual description meant. 
