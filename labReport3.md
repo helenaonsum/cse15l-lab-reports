@@ -99,7 +99,7 @@ static int[] reversed(int[] arr) {
     }
 ```
   
-to be
+   to be
 ```
    newArray[i] = arr[arr.length - i - 1];
    
