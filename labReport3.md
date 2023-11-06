@@ -211,4 +211,4 @@ txt
 
 
 **SOURCE FOR GREP COMMAND OPTIONS:**
-* I used the link: [Link]([http://a.com](https://man7.org/linux/man-pages/man1/grep.1.html)https://man7.org/linux/man-pages/man1/grep.1.html) to research different grep commands. If I didn't fully understand the meaning of the description for a command given in the manual, I played around with it using different inputs and files till I realized/figured out what manual description meant. 
+* I used the link: [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)to research different grep commands. If I didn't fully understand the meaning of the description for a command given in the manual, I played around with it using different inputs and files till I realized/figured out what manual description meant. 
