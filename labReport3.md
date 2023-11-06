@@ -74,7 +74,7 @@ static int[] reversed(int[] arr) {
   
 **Below is the reversed method after the bug was fixed**
 ```
-   static int[] reversed(int[] arr) {
+static int[] reversed(int[] arr) {
    
    int[] newArray = new int[arr.length];
    
