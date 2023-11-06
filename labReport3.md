@@ -131,7 +131,7 @@ MacBook-Air-26:Alcohol_Problems Helena$ grep -c 'alcohol' Session3-PDF.txt
 ```
 *The command is given on the first line, and the output is the **168** on the second line.*
 
-* The command-line option `grep -c` prints a count for the number of lines that match a patten in the specified file. In the above examples, `grep -c` counted **36 lines** in the **chapter-9.txt file** that contained the word **emergency** and **168 lines** in the **Session3-PDF.txt file** that contained the word **alcohol**.
+* The command-line option `grep -c` prints a count for the number of lines that match a patten in the specified file. In the above examples, `grep -c` counted **36 lines** in the **chapter-9.txt file** that contained the word **emergency** and **168 lines** in the **Session3-PDF.txt file** that contained the word **alcohol**. This command-line option is useful to quickly see how many lines in a file match a given pattern.
 
 
 **`grep -n`:**
@@ -157,7 +157,7 @@ MacBook-Air-26:Alcohol_Problems Helena$ grep -n 'medical condition' Session3-PDF
 ```
 *The command is given on the first line, and the three following lines are the output.*
  
-* The command-line option `grep -n` prints the line number where matches between a given pattern/search word and a specific file are found. In the above output each line starts with the line where the match was found, then is followed by the content/line that matched the searchwords **emergency response** and **medical condition** respectively.
+* The command-line option `grep -n` prints the line number where matches between a given pattern/search word and a specific file are found. In the above output each line starts with the line where the match was found, then is followed by the content/line that matched the searchwords **emergency response** and **medical condition** respectively. This command-line option is useful to see where in a file there are lines that match a given pattern. 
   
 
 **`grep -i`:**
@@ -181,7 +181,7 @@ MacBook-Air-26:biomed Helena$ grep -i 'examples' 1468-6708-3-4.txt
 ```
 *The command is given on the first line, and the rest is output.*
 
-* The command-line option `grep -i` ignores the case of the input pattern. This means that the command finds matches between the input pattern/search word and the specified file regardless of the case of the input pattern. In the above examples, the output shows lines which contain the search word **following** or **examples**, but the fact that both of those are all lowercase is ignored. I.e. the output includes instances where lines contain both **Following** and **following**, and **Examples** and **examples**.
+* The command-line option `grep -i` ignores the case of the input pattern. This means that the command finds matches between the input pattern/search word and the specified file regardless of the case of the input pattern. In the above examples, the output shows lines which contain the search word **following** or **examples**, but the fact that both of those are all lowercase is ignored. I.e. the output includes instances where lines contain both **Following** and **following**, and **Examples** and **examples**. This command-line option is useful when you are searching a file for results that don't need to be case sensitive.  
 
 
 **`grep -L`:**
@@ -207,8 +207,8 @@ txt
 ```
 *The command is given on the first line, and the output is the rest.*
 
-* The command-line option `grep -L` prints each file of the given input files that does not contain/match the given pattern/search word. In the first example, the output showes that the search word **Cold War** was **not present** in files: chapter-10.txt, chapter-13.2.txt, chapter-13.5.txt, chapter-2.txt, chapter-5.txt, chapter-7.txt, chapter-8.txt and chapter-9.txt. (It was present in files chapter-1.txt, chapter-3.txt, chapter-6.txt, chapter-11.txt, chapter-12.txt, chapter-13.1.txt, chapter-13.3.txt and chapter-13.4.txt.) In the second example, the output showes that the searchword **TWEAK** was **not present** in the files: Session3-PDF.txt and Session4-PDF.txt. (It was present in file Session2-PDF.txt).
+* The command-line option `grep -L` prints each file of the given input files that does not contain/match the given pattern/search word. In the first example, the output showes that the search word **Cold War** was **not present** in files: chapter-10.txt, chapter-13.2.txt, chapter-13.5.txt, chapter-2.txt, chapter-5.txt, chapter-7.txt, chapter-8.txt and chapter-9.txt. (It was present in files chapter-1.txt, chapter-3.txt, chapter-6.txt, chapter-11.txt, chapter-12.txt, chapter-13.1.txt, chapter-13.3.txt and chapter-13.4.txt.) In the second example, the output showes that the searchword **TWEAK** was **not present** in the files: Session3-PDF.txt and Session4-PDF.txt. (It was present in file Session2-PDF.txt). This command-line option is useful when you want to see what files in a set of files that do not contain a given pattern. 
 
 
 **SOURCE FOR GREP COMMAND OPTIONS:**
-* I used the link: [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html) to research different grep commands. If I didn't fully understand the meaning of the description for a command given in the manual, I played around with it using different inputs and files till I realized/figured out what manual description meant. 
+* I used the link: [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html) to research different grep command options. If I didn't fully understand the meaning of the description for a command given in the manual, I played around with it using different inputs and files till I realized/figured out what the manual description meant. 
