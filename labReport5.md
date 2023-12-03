@@ -4,6 +4,7 @@
 # *Putting it All Together* 
 
 **PART 1 - Debugging Scenario:**
+
 **1. The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some 
 sense of what the failure-inducing input is.**
   ```
@@ -64,4 +65,5 @@ sense of what the failure-inducing input is.**
       `bash test.sh`
     - A description of what to edit to fix the bug
       See the description of the image showing that all tests passed. 
-      
+
+**PART 2 - Reflection:**
