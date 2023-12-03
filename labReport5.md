@@ -8,10 +8,14 @@
 **1. The original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some 
 sense of what the failure-inducing input is.**
   ```
-  Hi! When running my merge method on some tests, I get an error message in JUnit that indicates that my method does not return a merged list in sorted order.
-  I suspect that the bug is related to the order with which content from each list is added to the new merged list and am therefore thinking there could be a logic error in comparing and adding values to the new list.
-  I am thinking this because the JUnit output tells me that the first index of the second list is the first index of the new one, and if my method sorted and added values to the new list correctly, I would expect this index to be the first index of the first list instead.
-  I am also thinkg this could be what the bug is since my first test passes, which has input where the merged list would be in sorted order if the second list was added first and then the first list was added, whereas my failing test, testMerge2, has input requiring more sorting/comparisons of each value in each list.
+  Hi! When running my merge method on some tests, I get an error message in JUnit that indicates that my method does not
+  return a merged list in sorted order. I suspect that the bug is related to the order with which content from each list
+  is added to the new merged list and am therefore thinking there could be a logic error in comparing and adding values to
+  the new list. I am thinking this because the JUnit output tells me that the first index of the second list is the first
+  index of the new one, and if my method sorted and added values to the new list correctly, I would expect this index to
+  be the first index of the first list instead. I am also thinkg this could be what the bug is since my first test passes,
+  which has input where the merged list would be in sorted order if the second list was added first and then the first list
+  was added, whereas my failing test, testMerge2, has input requiring more sorting/comparisons of each value in each list.
   Any help or advice would be much appreciated. Below I have included some of my code and JUnit output for context.
 
   Thank you!
@@ -36,9 +40,10 @@ sense of what the failure-inducing input is.**
 **2. A response from a TA asking a leading question or suggesting a command to try**
    ```
    Hi! I think you are on the right track.
-   The bug does seem to stem from a logic error in comparisons and adding to the new list when merging the values of the two old lists.
-   I would suggest looking closely at the code inside the if statement of your merge method and specifically at what list and index you are adding values from when the if statement returns true.
-   A hint is that your else statement appears correct, so maybe you could reverse engineer your logic from the else statement and see if it applies to the if statement.
+   The bug does seem to stem from a logic error in comparisons and adding to the new list when merging the values of the
+   two old lists. I would suggest looking closely at the code inside the if statement of your merge method and specifically
+   at what list and index you are adding values from when the if statement returns true. A hint is that your else statement
+   appears correct, so maybe you could reverse engineer your logic from the else statement and see if it applies to the if statement.
    Hope that helps! Feel free to come back to this thread with more questions, or come to my office hours this week and we can discuss it!
    ```
 **3. Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.**
@@ -67,3 +72,9 @@ sense of what the failure-inducing input is.**
       See the description of the image showing that all tests passed. 
 
 **PART 2 - Reflection:**
+The second half of this quarter I learned how to use Vim and Jdb. 
+I liked learning about Vim the most, and learned a lot from my lab-partners who showed me different Vim shortcuts
+and how to navigate Vim quickly. 
+When learning about Jdb, my TA helped me find extra outside resources to learn from as I was struggling to understand 
+some parts of the Jdb content, and through this experience I learned about new ways to find help/learn when struggling with a topic. 
+I also enjoyed learning how to build an autograder which is something we continuously worked on in labs.  
