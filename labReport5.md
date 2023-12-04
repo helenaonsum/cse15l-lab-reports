@@ -58,12 +58,12 @@ sense of what the failure-inducing input is.**
    
    ![Image](mergeTestPassed.png)
 
-   The bug in the code was that the values of the indeces from the second list, not the first, were being added to the new merged list when the if statement    `if(list1.get(index1).compareTo(list2.get(index2)) < 0)` returned true.
-   This was a logic error that did not make sense, since the if statement covered the sorting logic that if the index from list 1 is larger than list 2, the value of the index of list 1 should be added to ensure correct sorting of values in the merged list. When the student modified the line
+The bug in the code was that the values of the indeces from the second list, not the first, were being added to the new merged list when the if statement    `if(list1.get(index1).compareTo(list2.get(index2)) < 0)` returned true.
+This was a logic error that did not make sense, since the if statement covered the sorting logic that if the index from list 1 is larger than list 2, the value of the index of list 1 should be added to ensure correct sorting of values in the merged list. When the student modified the line
    
      `result.add(list2.get(index2));` to be `result.add(list1.get(index1));` 
      
-    the method merged correctly, and all tests passed (see above JUnit output).
+the method merged correctly, and all tests passed (see above JUnit output).
 
 **4. At the end, all the information needed about the setup including:**
 
@@ -78,7 +78,7 @@ sense of what the failure-inducing input is.**
       See the above screenshots in the student post for the merge method, the bash script and the merge tests.
       These three screenshots show the contents of each file before fixing the bug
     - The full command line (or lines) you ran to trigger the bug
-      `bash test.sh`
+        `bash test.sh`
     - A description of what to edit to fix the bug
       See the description of the image showing that all tests passed. 
 
