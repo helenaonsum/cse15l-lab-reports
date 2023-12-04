@@ -11,14 +11,14 @@ sense of what the failure-inducing input is.**
   Hi!
   When running my merge method on some tests, I get an error message in JUnit that indicates that my
   method does not return a merged list in sorted order. I suspect that the bug is related to the
-  order with which content from each list is added to the new merged list and am therefore thinking
+  order in which content from each list is added to the new merged list and am therefore thinking
   there could be a logic error in comparing and adding values to the new list. I am thinking this
   because the JUnit output tells me that the first index of the second list is the first index of
   the new one, and if my method sorted and added values to the new list correctly, I would expect
-  this index to be the first index of the first list instead. I am also thinkg this could be what
-  the bug is since my first test passes,which has input where the merged list would be in sorted
+  this index to be the first index of the first list instead. I also think this could be what
+  the bug is since my first test passes, which has input where the merged list would be in sorted
   order if the second list was added first and then the first list was added, whereas my failing test,
-  testMerge2, has input requiring more sorting/comparisons of each value in each list.
+  testMerge2,d has input requiring more sorting/comparisons of each value in each list.
   Any help or advice would be much appreciated.
   Below I have included some of my code and JUnit output for context.
 
