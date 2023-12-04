@@ -46,12 +46,11 @@ sense of what the failure-inducing input is.**
    Hi!
    I think you are on the right track.
    The bug does seem to stem from a logic error in comparisons and adding to the new list when
-   merging the values of the
-   two old lists. I would suggest looking closely at the code inside the if statement of your
-   merge method and specifically at what list and index you are adding values from when the
-   if statement returns true. A hint is that your else statement appears correct, so maybe
-   you could reverse engineer your logic from the else statement and see if it applies to
-   the if statement.
+   merging the values of the two old lists. I would suggest looking closely at the code inside
+   the if statement of your merge method and specifically at what list and index you are adding
+   values from when the if statement returns true. A hint is that your else statement appears
+   correct, so maybe you could reverse engineer your logic from the else statement and see if
+   it applies to the if statement.
    Hope that helps! Feel free to come back to this thread with more questions, or come to
    my office hours this week and we can discuss it!
    ```
@@ -59,22 +58,23 @@ sense of what the failure-inducing input is.**
    
    ![Image](mergeTestPassed.png)
 
-   The bug in the code was that the indeces from the second list, not the first, were being added to the new merged list when the if statement    `if(list1.get(index1).compareTo(list2.get(index2)) < 0)` returned true.
-   This was a logic error that did not make sense, since the if statement covered the sorting logic that if the index from list 1 is larger than list 2, the index of list 1 should be added to ensure correct sorting of values in the merged list. When the student modified the line
-     `result.add(list2.get(index2));` to be `result.add(list1.get(index1));` the method merged correctly, and all tests passed (see above JUnit output).
+   The bug in the code was that the values of the indeces from the second list, not the first, were being added to the new merged list when the if statement    `if(list1.get(index1).compareTo(list2.get(index2)) < 0)` returned true.
+   This was a logic error that did not make sense, since the if statement covered the sorting logic that if the index from list 1 is larger than list 2, the value of the index of list 1 should be added to ensure correct sorting of values in the merged list. When the student modified the line
+   
+     `result.add(list2.get(index2));` to be `result.add(list1.get(index1));` 
+     
+    the method merged correctly, and all tests passed (see above JUnit output).
 
 **4. At the end, all the information needed about the setup including:**
 
     - The file & directory structure needed:
     
-      ```
       Lab7
         - ListExamples.java (where the merge method is)
         - ListExamplesTests.java (where the tests for the merge method are)
         - test.sh (the bash script to run the merge tests)
-      ```
         
-    - The contents of each file before fixing the bug
+    - The contents of each file before fixing the bug.
       See the above screenshots in the student post for the merge method, the bash script and the merge tests.
       These three screenshots show the contents of each file before fixing the bug
     - The full command line (or lines) you ran to trigger the bug
