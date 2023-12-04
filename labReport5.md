@@ -18,7 +18,7 @@ sense of what the failure-inducing input is.**
   this index to be the first index of the first list instead. I also think this could be what
   the bug is since my first test passes, which has input where the merged list would be in sorted
   order if the second list was added first and then the first list was added, whereas my failing test,
-  testMerge2,d has input requiring more sorting/comparisons of each value in each list.
+  testMerge2, has input requiring more sorting/comparisons of each value in each list.
   Any help or advice would be much appreciated.
   Below I have included some of my code and JUnit output for context.
 
